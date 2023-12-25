@@ -11,7 +11,7 @@ import (
 func main() {
 
 	CONN := "postgres://localhost:5432/address_book"
-	psg, err := psg.NewPsg(CONN, "shabalka", "shabalka")
+	psg, err := psg.NewPsg(CONN, "jvs", "123")
 	if err != nil {
 		fmt.Println(err)
 		return
